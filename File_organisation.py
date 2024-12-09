@@ -37,7 +37,7 @@ def organize_and_rename_files(source_folder):
             folder_path = os.path.join(source_folder, folder_name)
 
             # Generate new file name
-            new_file_name = f"{folder_name}_{len(os.listdir(folder_path)) + 1}{file_extension}"
+            new_file_name = f"{folder_name}_{len(os.listdir(folder_path)) + 1}{file_extension}" #Prior to the +1 can add a specific name wanted
             new_file_path = os.path.join(folder_path, new_file_name)
 
             # Move the file to its respective folder
