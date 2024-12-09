@@ -10,7 +10,7 @@ def organize_and_rename_files(source_folder):
         '.csv': 'csv',
         '.pod5': 'pod5',
         '.fastq': 'fastq',
-        '.fast5': 'fast5'
+        '.fast5': 'fast5',
         '.pdf': 'pdf' 
     }
     
